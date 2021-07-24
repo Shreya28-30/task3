@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.white{
+	color: rgb(255, 153, 0);
+	font-family:'Times New Roman', Times, serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    padding:30px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: darkred;
+    background-color: lightsalmon;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.nav-list li a:hover{
+    color: black;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;
+	color: lightgreen;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 15px;
+
+}
+
+.donate{
+	padding: 20px;
+	background-color: rgba(228, 228, 228, 0.8);
+    border-radius: 20px;
+}
+.donar{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	color: blue;
+	font-family:'Times New Roman', Times, serif;
+	padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+       padding-left: 10px;
+       background-color: rgba(228, 228, 228, 0.8);
+       border-radius: 20px;
+       font-size: 20px;
+       margin: auto;
+      width: 60%;
+      border: 3px solid #2159ad;
+      padding: 10px;
+
+}
+.form_details{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;
+	color:black;
+ 	font-family:'Times New Roman', Times, serif;
+	padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+	background-color: rgba(228, 228, 228, 0.8);
+        border-radius: 20px;
+	margin: auto;
+        width: 60%;
+        border: 3px solid #ad4d21;
+        padding: 10px;
+
+}
+label{
+    display: inline-block;
+    width: 20%;
+    text-align:start;
+}
+
+input, textarea {
+  display: inline-block;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.about{
+	display: flex;
+	color: blue;
+	font-family:'Times New Roman', Times, serif;
+}
+
+img{
+	width: 300px;
+	opacity: 0.8;
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.4) url('donate.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.btn{
+    background-color: #ff8000;
+    font-family:'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px;
+    background: orangered;
+    color:white;
+    letter-spacing: 1.5px;
+}
+
+button:hover{
+	transform: scale(1.1);
+	background-colo: grey;
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.8);
+	overflow: hidden;
+	padding-top: 5px;
+}
